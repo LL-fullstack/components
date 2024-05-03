@@ -42,19 +42,19 @@ function App() {
   return (
     <div className="App">
       <Header title={title}
-              navList={navList} />;
+              navList={navList} />
 
       <Banner primaryButtonName={primaryButtonName} 
               secondaryButtonName={secondaryButtonName} 
               primaryButtonStyle={primaryButtonStyle}
               secondaryButtonStyle={secondaryButtonStyle} 
               bannerTitle={bannerTitle} 
-              bannerText={bannerText} />;
+              bannerText={bannerText} />
 
-      <Gallery imageList={imageList}/>;
+      <Gallery imageList={imageList}/>
 
       <Footer footerList={footerList}
-              footerCopyright={footerCopyright} />;
+              footerCopyright={footerCopyright} />
     </div>
   );
 }
